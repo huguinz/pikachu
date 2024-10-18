@@ -122,3 +122,60 @@ footer{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* TABLET */
+
+@media (max-width:960px) {
+    body{
+        padding-inline: 30px;
+        padding-bottom: 32px;
+    }
+    main{
+        justify-content: space-between;
+    }
+    footer{
+        display: none;
+    }
+    .pikachi-image {
+        width: 80vw;
+    }
+    .container{
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+    .container div{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .container div h2{
+        width: 100%;
+    }
+    .container div p{
+        width: 80%;
+    }
+    
+ }
+ 
+ @media (max-width:960px) {
+    header div{
+        display: none;
+    }
+    .container{
+        flex-direction: column;
+        height: auto;
+        gap: 16px;
+    }
+    .container div h2{
+        font-size: 32px;
+    }
+    .container div p{
+        display: none;
+    }
+    .action{
+        width: 80%;
+    }
+ }
